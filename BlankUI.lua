@@ -131,14 +131,14 @@ function Library:CreateWindow(config)
     }, SideBar)
 
     local SidebarBottomImage = Create("ImageLabel", {
-    Name = "SidebarBottomImage",
-    Size = UDim2.fromOffset(111, 66),
-    Position = UDim2.new(0, -8, 1, -35),
-    BackgroundTransparency = 1,
-    Image = "rbxassetid://79667850088134",
-    ScaleType = Enum.ScaleType.Fit,
-    ZIndex = 20
-}, Main)
+        Name = "SidebarBottomImage",
+        Size = UDim2.fromOffset(111, 66),
+        Position = UDim2.new(0.5, -55, 1, -35),
+        BackgroundTransparency = 1,
+        Image = "rbxassetid://79667850088134",
+        ScaleType = Enum.ScaleType.Fit,
+        ZIndex = 20
+    }, Main)
 
     local GrayPanel = Create("Frame", {
         Name = "GrayPanel",
@@ -432,7 +432,7 @@ function Library:CreateWindow(config)
 
     Stroke(SearchBar, Color3.fromRGB(85, 85, 85), 1)
 
-    local SearchBox = Create("Search...", {
+    local SearchBox = Create("TextBox", {
         Name = "SearchBox",
         Size = UDim2.new(1, -16, 1, 0),
         Position = UDim2.fromOffset(8, 0),
@@ -651,7 +651,7 @@ function Library:CreateWindow(config)
         Size = UDim2.fromOffset(100, 29),
         Position = UDim2.new(0.53, -110, 0, 0),
         BackgroundTransparency = 1,
-        Text = config.Game or "????",
+        Text = config.Game or "|RIVALS|",
         TextColor3 = Color3.fromRGB(105, 105, 105),
         TextSize = 12,
         FontFace = BOTTOM_FONT,

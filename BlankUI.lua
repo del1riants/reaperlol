@@ -133,7 +133,7 @@ function Library:CreateWindow(config)
     local SidebarBottomImage = Create("ImageLabel", {
     Name = "SidebarBottomImage",
     Size = UDim2.fromOffset(111, 66),
-    Position = UDim2.new(0, -8, 1, -89),
+    Position = UDim2.new(0, -8, 1, -35),
     BackgroundTransparency = 1,
     Image = "rbxassetid://79667850088134",
     ScaleType = Enum.ScaleType.Fit,

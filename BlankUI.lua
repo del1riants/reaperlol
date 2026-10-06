@@ -432,7 +432,7 @@ function Library:CreateWindow(config)
 
     Stroke(SearchBar, Color3.fromRGB(85, 85, 85), 1)
 
-    local SearchBox = Create("TextBox", {
+    local SearchBox = Create("Search...", {
         Name = "SearchBox",
         Size = UDim2.new(1, -16, 1, 0),
         Position = UDim2.fromOffset(8, 0),

@@ -651,7 +651,7 @@ function Library:CreateWindow(config)
         Size = UDim2.fromOffset(100, 29),
         Position = UDim2.new(0.53, -110, 0, 0),
         BackgroundTransparency = 1,
-        Text = config.Game or "???",
+        Text = config.Game or "????",
         TextColor3 = Color3.fromRGB(105, 105, 105),
         TextSize = 12,
         FontFace = BOTTOM_FONT,
